@@ -1,0 +1,494 @@
+<!DOCTYPE html>
+<html lang="en" class="bg-[var(--page-bg)]" data-theme="dark">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta name="viewport" content="width=device-width">
+  <meta name="generator" content="Astro v4.16.3">
+  <!-- SEO -->
+  <title>AR71S7</title>
+  <script src="./files/hm.js"></script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+</head>
+
+<script>
+  // Function to apply theme from localStorage or system preference
+  const setTheme = () => {
+    const theme = (() => {
+      if (typeof localStorage !== "undefined" && localStorage.getItem("theme")) {
+        return localStorage.getItem("theme");
+      }
+      if (window.matchMedia("(prefers-color-scheme: dark)").matches) {
+        return "dark";
+      }
+      return "light";
+    })();
+
+    document.documentElement.setAttribute("data-theme", theme);
+  };
+
+  // Function to toggle theme
+  const toggleTheme = () => {
+    const current = document.documentElement.getAttribute("data-theme");
+    const next = current === "dark" ? "light" : "dark";
+    document.documentElement.setAttribute("data-theme", next);
+    localStorage.setItem("theme", next);
+  };
+
+  // Initial set
+  setTheme();
+
+  // Re-apply theme after Astro page swap
+  document.addEventListener("astro:after-swap", setTheme);
+
+  // Add click listener for toggle button
+  document.addEventListener("DOMContentLoaded", () => {
+    const toggleBtn = document.getElementById("themeToggle");
+    if (toggleBtn) {
+      toggleBtn.addEventListener("click", toggleTheme);
+    }
+  });
+</script>
+
+<script>
+  var _hmt = _hmt || [];
+  (function () {
+    var hm = document.createElement("script");
+    hm.src = "https://hm.baidu.com/hm.js?66d7bcfbd0051616332d7986743c39d6";
+    var s = document.getElementsByTagName("script")[0];
+    s.parentNode.insertBefore(hm, s);
+  })();
+</script>
+<link rel="stylesheet" href="./files/hoisted.CjCWXgqo.css">
+<link rel="stylesheet" href="./files/index.BpOBdlX7.css">
+<style>
+  @charset "UTF-8";
+
+  #themeToggle:where(.astro-oemx5le4) {
+    border: 0;
+    background: none
+  }
+
+  .moon:where(.astro-oemx5le4) {
+    fill: transparent
+  }
+
+  [data-theme=dark] .sun:where(.astro-oemx5le4) {
+    fill: transparent
+  }
+
+  [data-theme=dark] .moon:where(.astro-oemx5le4) {
+    fill: #fff
+  }
+
+  @supports (bottom: constant(safe-area-inset-bottom)) or (bottom: env(safe-area-inset-bottom)) {
+    .footer-nav:where(.astro-sckkx6r4) {
+      padding-bottom: calc(.5rem + constant(safe-area-inset-bottom));
+      padding-bottom: calc(.5rem + env(safe-area-inset-bottom))
+    }
+  }
+
+
+
+
+  h2 {
+    position: relative
+  }
+
+  [data-theme=dark] {
+    .link-anchor {
+      fill: #fff
+    }
+  }
+
+  :root {
+    --page-bg: #f3efff;
+    --side-bg: #f6f7ff;
+    --content-bg: #fff;
+    --title: #000;
+    --text: #0d0d0d;
+    --text-secondary: #aab0c0;
+    --primary: #3b3eff;
+    --btn-plain-bg: #e9ecfe;
+    --hilight-color: #3b3eff;
+    --side-border: #eeefff;
+    --content-border: #f7f7ff;
+    --nav-border-color: #eaeaea;
+    --index-location: #354677;
+    --side-about-icon: #9498cd;
+    --side-about-text: #44507b
+  }
+
+  :root[data-theme=dark] {
+    --page-bg: #080e12;
+    --side-bg: #111324;
+    --content-bg: #161829;
+    --title: #dedede;
+    --text: #a5a9c3;
+    --text-secondary: #aab0bf;
+    --primary: #2b48ff;
+    --btn-plain-bg: #292c45;
+    --hilight-color: #7786e7;
+    --side-border: #1e2036;
+    --content-border: #1e2036;
+    --nav-border-color: #0d0f1e;
+    --index-location: #a5a9c3;
+    --side-about-icon: #8c92b3;
+    --side-about-text: #5b5f80
+  }
+
+  body {
+    font-size: 100%;
+    font-family: eafont, HarmonyOS_M, PingFang SC, Hiragino Sans GB, Microsoft YaHei, STHeiti, WenQuanYi Micro Hei, Helvetica, Arial, sans-serif
+  }
+
+  .link-anchor {
+    position: absolute;
+    top: 40%;
+    left: -28px;
+    display: flex;
+    width: 28px;
+    height: 28px;
+    margin: auto;
+    opacity: 0;
+    justify-content: center;
+    align-items: center;
+    transform: translateY(-50%);
+    border: none
+  }
+
+  .dark .link-anchor {
+    fill: #fff
+  }
+
+  .link-anchor:hover {
+    opacity: 1
+  }
+
+  .astro-code {
+    background-color: #f6f8fa !important
+  }
+
+  html[data-theme=dark] .astro-code,
+  html[data-theme=dark] .astro-code span {
+    color: var(--shiki-dark) !important;
+    background-color: var(--shiki-dark-bg) !important;
+    font-style: var(--shiki-dark-font-style) !important;
+    font-weight: var(--shiki-dark-font-weight) !important;
+    -webkit-text-decoration: var(--shiki-dark-text-decoration) !important;
+    text-decoration: var(--shiki-dark-text-decoration) !important
+  }
+</style>
+<script type="module" src="./files/hoisted.zNu3VOV0.js"></script>
+<script type="module" src="./files/page.7qqag-5g.js"></script>
+<script>window.va = window.va || function () { (window.vaq = window.vaq || []).push(arguments); };
+  var script = document.createElement('script');
+  script.defer = true;
+  script.src = '/_vercel/insights/script.js';
+  var head = document.querySelector('head');
+  head.appendChild(script);
+</script>
+<script defer="" src="./files/script.js"></script>
+</head>
+
+<body>
+  <div id="page" class="flex min-h-screen text-[var(--text)] md:mx-10 md:mt-14 astro-sckkx6r4">
+    <div class="hidden min-w-64 rounded-l-md bg-[var(--side-bg)] md:block astro-sckkx6r4">
+      <div class="mb-5 flex items-center justify-between px-8 astro-sckkx6r4"> <a href="home.html"
+          class="flex flex-row items-center justify-start py-4 astro-sckkx6r4"> <img
+            src="./files/avator.BePvCchA_1x1Arc.webp" alt="" class="mr-4 h-10 w-10 rounded-full astro-sckkx6r4"
+            width="482" height="485" loading="lazy" decoding="async">
+          <h1 class="text-lg astro-sckkx6r4">AR71S7</h1>
+        </a> <button id="themeToggle" class="themeToggle astro-oemx5le4"> <svg width="24px"
+            xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="astro-oemx5le4">
+            <path class="sun astro-oemx5le4" fill-rule="evenodd" fill="black"
+              d="M12 17.5a5.5 5.5 0 1 0 0-11 5.5 5.5 0 0 0 0 11zm0 1.5a7 7 0 1 0 0-14 7 7 0 0 0 0 14zm12-7a.8.8 0 0 1-.8.8h-2.4a.8.8 0 0 1 0-1.6h2.4a.8.8 0 0 1 .8.8zM4 12a.8.8 0 0 1-.8.8H.8a.8.8 0 0 1 0-1.6h2.5a.8.8 0 0 1 .8.8zm16.5-8.5a.8.8 0 0 1 0 1l-1.8 1.8a.8.8 0 0 1-1-1l1.7-1.8a.8.8 0 0 1 1 0zM6.3 17.7a.8.8 0 0 1 0 1l-1.7 1.8a.8.8 0 1 1-1-1l1.7-1.8a.8.8 0 0 1 1 0zM12 0a.8.8 0 0 1 .8.8v2.5a.8.8 0 0 1-1.6 0V.8A.8.8 0 0 1 12 0zm0 20a.8.8 0 0 1 .8.8v2.4a.8.8 0 0 1-1.6 0v-2.4a.8.8 0 0 1 .8-.8zM3.5 3.5a.8.8 0 0 1 1 0l1.8 1.8a.8.8 0 1 1-1 1L3.5 4.6a.8.8 0 0 1 0-1zm14.2 14.2a.8.8 0 0 1 1 0l1.8 1.7a.8.8 0 0 1-1 1l-1.8-1.7a.8.8 0 0 1 0-1z">
+            </path>
+            <path class="moon astro-oemx5le4" fill-rule="evenodd"
+              d="M16.5 6A10.5 10.5 0 0 1 4.7 16.4 8.5 8.5 0 1 0 16.4 4.7l.1 1.3zm-1.7-2a9 9 0 0 1 .2 2 9 9 0 0 1-11 8.8 9.4 9.4 0 0 1-.8-.3c-.4 0-.8.3-.7.7a10 10 0 0 0 .3.8 10 10 0 0 0 9.2 6 10 10 0 0 0 4-19.2 9.7 9.7 0 0 0-.9-.3c-.3-.1-.7.3-.6.7a9 9 0 0 1 .3.8z">
+            </path>
+          </svg> </button> </div>
+      <ul class="mb-5 border-b border-solid border-b-[var(--side-border)] px-8 py-0 pb-5 astro-sckkx6r4">
+        <li class="astro-sckkx6r4">
+          <a href="home.html"
+            class="flex flex-row justify-start items-center px-4 py-3 rounded-xl mb-2 hover:bg-[var(--btn-plain-bg)] hover:shadow-2xl hover:shadow-[#d4ddff] dark:hover:shadow-inherit hover:text-[--primary] dark:hover:text-inherit astro-sckkx6r4"">
+
+            <i class="fas fa-home mr-3"></i>
+            <span class="astro-sckkx6r4">HOME</span>
+          </a>
+        </li>
+
+
+        <li class="astro-sckkx6r4">
+          <!-- Main Clickable Item -->
+          <a href="javascript:void(0);" onclick="toggleSubmenuForCyberSecurity()"
+            class="flex flex-row justify-start items-center px-4 py-3 rounded-xl mb-2 hover:bg-[var(--btn-plain-bg)] hover:shadow-2xl hover:shadow-[#d4ddff] dark:hover:shadow-inherit hover:text-[--primary] dark:hover:text-inherit astro-sckkx6r4">
+            <i class="fas fa-shield-alt mr-3"></i> <!-- or use fa-lock for a lock icon -->
+            <span class="astro-sckkx6r4">CYBER SECURITY</span>
+          </a>
+
+
+          <!-- Submenu Items -->
+          <ul id="submenu" class="hidden ml-6 mt-1">
+            <li class="astro-sckkx6r4">
+              <a href="/articles/development"
+                class="flex flex-row justify-start items-center px-4 py-3 rounded-xl mb-2 hover:bg-[var(--btn-plain-bg)] hover:shadow-2xl hover:shadow-[#d4ddff] dark:hover:shadow-inherit hover:text-[--primary] dark:hover:text-inherit">
+                <span class="astro-sckkx6r4">WEB</span>
+              </a>
+            </li>
+
+          </ul>
+        </li>
+
+        <li class="astro-sckkx6r4">
+          <!-- Main Clickable Item -->
+          <a href="javascript:void(0);" onclick="toggleSubmenuForDevelopment()"
+            class="flex flex-row justify-start items-center px-4 py-3 rounded-xl mb-2 hover:bg-[var(--btn-plain-bg)] hover:shadow-2xl hover:shadow-[#d4ddff] dark:hover:shadow-inherit hover:text-[--primary] dark:hover:text-inherit astro-sckkx6r4">
+            <i class="fas fa-code mr-3"></i> <!-- Represents development/code -->
+            <span class="astro-sckkx6r4">DEVELOPMENT</span>
+          </a>
+
+
+          <!-- Submenu Items -->
+          <ul id="submenufordev" class="hidden ml-6 mt-1">
+            <li class="astro-sckkx6r4">
+              <a href="/articles/development"
+                class="flex flex-row justify-start items-center px-4 py-3 rounded-xl mb-2 hover:bg-[var(--btn-plain-bg)] hover:shadow-2xl hover:shadow-[#d4ddff] dark:hover:shadow-inherit hover:text-[--primary] dark:hover:text-inherit">
+                <span class="astro-sckkx6r4">PYTHON</span>
+              </a>
+            </li>
+
+          </ul>
+        </li>
+
+
+        <li class="astro-sckkx6r4">
+          <a href="archives.html"
+            class="flex flex-row justify-start items-center px-4 py-3 rounded-xl mb-2 text-[#fff] bg-[var(--primary)] astro-sckkx6r4">
+
+            <i class="fas fa-file-alt mr-3"></i>
+            <span class="astro-sckkx6r4">ARCHIVES</span>
+          </a>
+        </li>
+
+        <li class="astro-sckkx6r4">
+          <a href="https://gokulur.github.io/"
+            class="flex flex-row justify-start items-center px-4 py-3 rounded-xl mb-2 hover:bg-[var(--btn-plain-bg)] hover:shadow-2xl hover:shadow-[#d4ddff] dark:hover:shadow-inherit hover:text-[--primary] dark:hover:text-inherit astro-sckkx6r4">
+
+            <i class="fas  fa-user-astronaut mr-3"></i>
+            <span class="astro-sckkx6r4">PORTFOLIO</span>
+          </a>
+        </li>
+
+      </ul>
+      <section class="px-8 astro-sckkx6r4">
+        <div class="mb-4 text-[#9098a7] astro-sckkx6r4">Let’s Connect</div>
+
+
+
+        <a class="mb-2 flex items-center astro-sckkx6r4" href="https://github.com/gokulur" target="_blank">
+          <i class="fab fa-github mr-2 text-[var(--side-about-icon)] astro-sckkx6r4"></i>
+          <span class="text-[var(--side-about-text)] astro-sckkx6r4">GitHub</span>
+        </a>
+        <a class="mb-2 flex items-center astro-sckkx6r4" href="https://www.linkedin.com/in/gokulkrishnaur/"
+          target="_blank">
+          <i class="fab fa-linkedin mr-2 text-[var(--side-about-icon)] astro-sckkx6r4"></i>
+          <span class="text-[var(--side-about-text)] astro-sckkx6r4">LinkedIn</span>
+        </a>
+
+        <a class="mb-2 flex items-center astro-sckkx6r4" href="https://wa.me/+919567295469" target="_blank">
+          <i class="fab fa-whatsapp mr-2 text-[var(--side-about-icon)] astro-sckkx6r4"></i>
+          <span class="text-[var(--side-about-text)] astro-sckkx6r4">WhatsApp</span>
+        </a>
+        <a class="mb-2 flex items-center astro-sckkx6r4" href="https://x.com/AR71S7" target="_blank">
+          <i class="fab fa-twitter mr-2 text-[var(--side-about-icon)] astro-sckkx6r4"></i>
+          <span class="text-[var(--side-about-text)] astro-sckkx6r4">X (Twitter)</span>
+        </a>
+
+      </section>
+
+      <!-- <Image src={weixinImage} alt="" class="mx-auto h-32 w-32 rounded-md border-4 border-white opacity-85" /> -->
+    </div>
+    <div class="w-full flex-1 rounded-r-md bg-[var(--content-bg)] pb-20 astro-sckkx6r4">
+      
+
+      <!-- Content Section -->
+      <ul
+        class="flex flex-row flex-wrap items-center justify-start gap-4 border-b border-b-[var(--content-border)] px-4 py-4 md:px-6 md:py-10">
+        <li class="flex"> <a href="https://yayujs.com/blog"
+            class="no-underline cursor-pointer px-3 py-2 rounded-md text-center text-sm text-white bg-[var(--primary)]">
+            Python </a> </li>
+            <li class="flex"> <a href="https://yayujs.com/blog"
+              class="no-underline cursor-pointer px-3 py-2 rounded-md text-center text-sm text-white bg-[var(--primary)]">
+              Wordpress </a> </li>
+      </ul>
+
+      <div class="card-base p-4 md:p-6 astro-xi2bid3d">
+        <div class="astro-xi2bid3d">
+          <div class="flex h-[3.75rem] w-full flex-row items-center astro-xi2bid3d">
+            <div class="text-75 w-[15%] text-right text-2xl font-bold transition md:w-[10%] astro-xi2bid3d"> 2025 </div>
+            <div class="w-[15%] md:w-[10%] astro-xi2bid3d">
+              <div class="mx-auto h-3 w-3 overflow-hidden rounded-full border-2 border-[var(--hilight-color)] bg-none astro-xi2bid3d">
+              </div>
+            </div>
+            <div class="text-50 w-[70%] text-left transition md:w-[80%] astro-xi2bid3d"> 2 Articles </div>
+          </div>
+        
+          <div class="group relative h-10 w-full rounded-lg hover:cursor-auto hover:bg-[var(--btn-plain-bg)] astro-xi2bid3d">
+            <div class="flex h-full flex-row items-center justify-start astro-xi2bid3d">
+              <div class="text-50 w-[15%] text-right text-sm transition md:w-[10%] astro-xi2bid3d"> 15-Apr </div>
+              <div class="dash-line relative flex h-full w-[15%] items-center md:w-[10%] astro-xi2bid3d">
+                <div class="z-50 mx-auto h-1 w-1 rounded bg-[var(--hilight-color)] transition-all group-hover:h-5 group-hover:bg-[var(--hilight-color)] astro-xi2bid3d"></div>
+              </div>
+        
+              <a href="https://juejin.cn/post/7474264487497416755" aria-label="Svelte Latest Chinese Documentation Tutorial (17) – Lifecycle Hooks"
+                target="_blank"
+                class="text-75 w-[70%] overflow-hidden overflow-ellipsis whitespace-nowrap pr-8 text-left font-bold transition-all hover:cursor-pointer group-hover:translate-x-1 group-hover:text-[var(--hilight-color)] md:w-[70%] md:max-w-[70%] astro-xi2bid3d"
+                rel="nofollow noreferrer">
+                  python
+              </a>
+        
+              <div class="hidden justify-start gap-4 md:flex md:w-[10%] astro-xi2bid3d">
+                <a href="https://juejin.cn/post/7474264487497416755" target="_blank" rel="nofollow noreferrer" class="astro-xi2bid3d">
+                  <!-- juejin icon -->
+                  <svg width="1.29em" height="1em" viewBox="0 0 1316 1024" class="text-base hover:scale-150 astro-xi2bid3d" data-icon="juejin">
+                    <use xlink:href="#ai:local:juejin"></use>
+                  </svg>
+                </a>
+                <a href="https://github.com/mqyqingfeng/Blog/issues/345" target="_blank" rel="nofollow noreferrer" class="astro-xi2bid3d">
+                  <!-- github icon -->
+                  <svg width="1em" height="1em" viewBox="0 0 1024 1024" class="text-base hover:scale-150 astro-xi2bid3d" data-icon="github">
+                    <use xlink:href="#ai:local:github"></use>
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </div>
+        
+          <!-- Another article row -->
+          <div class="group relative h-10 w-full rounded-lg hover:cursor-auto hover:bg-[var(--btn-plain-bg)] astro-xi2bid3d">
+            <div class="flex h-full flex-row items-center justify-start astro-xi2bid3d">
+              <div class="text-50 w-[15%] text-right text-sm transition md:w-[10%] astro-xi2bid3d"> 15-Apr </div>
+              <div class="dash-line relative flex h-full w-[15%] items-center md:w-[10%] astro-xi2bid3d">
+                <div class="z-50 mx-auto h-1 w-1 rounded bg-[var(--hilight-color)] transition-all group-hover:h-5 group-hover:bg-[var(--hilight-color)] astro-xi2bid3d"></div>
+              </div>
+        
+              <a href="https://juejin.cn/post/7474264487497416755" aria-label="Svelte Latest Chinese Documentation Tutorial (17) – Lifecycle Hooks"
+                target="_blank"
+                class="text-75 w-[70%] overflow-hidden overflow-ellipsis whitespace-nowrap pr-8 text-left font-bold transition-all hover:cursor-pointer group-hover:translate-x-1 group-hover:text-[var(--hilight-color)] md:w-[70%] md:max-w-[70%] astro-xi2bid3d"
+                rel="nofollow noreferrer">
+                python
+              </a>
+        
+              <div class="hidden justify-start gap-4 md:flex md:w-[10%] astro-xi2bid3d">
+                <a href="https://juejin.cn/post/7474264487497416755" target="_blank" rel="nofollow noreferrer" class="astro-xi2bid3d">
+                  <svg width="1.29em" height="1em" viewBox="0 0 1316 1024" class="text-base hover:scale-150 astro-xi2bid3d" data-icon="juejin">
+                    <use xlink:href="#ai:local:juejin"></use>
+                  </svg>
+                </a>
+                <a href="https://github.com/mqyqingfeng/Blog/issues/345" target="_blank" rel="nofollow noreferrer" class="astro-xi2bid3d">
+                  <svg width="1em" height="1em" viewBox="0 0 1024 1024" class="text-base hover:scale-150 astro-xi2bid3d" data-icon="github">
+                    <use xlink:href="#ai:local:github"></use>
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+
+      </div>
+
+
+
+
+
+
+
+
+
+
+    </div>
+
+    <div class="hidden min-w-64 bg-[var(--side-bg)] xl:hidden dark:bg-[var(--side-bg)] astro-sckkx6r4">
+      <div class="flex h-[72px] flex-row items-center justify-end pr-[30px] astro-sckkx6r4"></div>
+    </div>
+    <div
+      class="footer-nav fixed bottom-0 z-50 flex w-full items-center justify-around border-t border-t-[var(--nav-border-color)] bg-white p-2 text-sm md:hidden dark:bg-[var(--side-bg)] astro-sckkx6r4">
+
+      <a href="home.html"
+        class="flex flex-col items-center justify-center text-[var(--hilight-color)] dark:text-[#fff] astro-sckkx6r4">
+        <svg width="1.01em" height="1em" viewBox="0 0 1025 1024" class="mb-1 astro-sckkx6r4" data-icon="home">
+          <use xlink:href="#ai:local:home"></use>
+        </svg>
+        <span class="astro-sckkx6r4">Home</span>
+      </a>
+
+      <a href="" class="flex flex-col items-center justify-center astro-sckkx6r4">
+        <svg width="1em" height="1em" viewBox="0 0 1024 1024" class="mb-1 astro-sckkx6r4" data-icon="order">
+          <use xlink:href="#ai:local:order"></use>
+        </svg>
+        <span class="astro-sckkx6r4">Posts</span>
+      </a>
+
+      <a href="" class="flex flex-col items-center justify-center astro-sckkx6r4">
+        <svg width="1em" height="1em" viewBox="0 0 1024 1024" class="mb-1 astro-sckkx6r4" data-icon="vip">
+          <use xlink:href="#ai:local:vip"></use>
+        </svg>
+        <span class="astro-sckkx6r4">Courses</span>
+      </a>
+
+      <a href="" class="flex flex-col items-center justify-center astro-sckkx6r4">
+        <svg width="1.01em" height="1em" viewBox="0 0 1026 1024" class="mb-1 astro-sckkx6r4" data-icon="life">
+          <use xlink:href="#ai:local:life"></use>
+        </svg>
+        <span class="astro-sckkx6r4">Growth</span>
+      </a>
+
+      <a href="" class="flex flex-col items-center justify-center astro-sckkx6r4">
+        <svg width="1em" height="1em" viewBox="0 0 1024 1024" class="mb-1 astro-sckkx6r4" data-icon="people">
+          <use xlink:href="#ai:local:people"></use>
+        </svg>
+        <span class="astro-sckkx6r4">Follow</span>
+      </a>
+
+      <a href="" class="flex flex-col items-center justify-center astro-sckkx6r4">
+        <svg width="1em" height="1em" viewBox="0 0 1024 1024" class="mb-1 astro-sckkx6r4" data-icon="heart">
+          <use xlink:href="#ai:local:heart"></use>
+        </svg>
+        <span class="astro-sckkx6r4">Sponsor</span>
+      </a>
+    </div>
+
+  </div>
+  <div class="footer my-4 text-center text-sm text-[#7e85ad] astro-sckkx6r4"> <a href="" target="_blank"
+      class="astro-sckkx6r4"> Copyright © 2025 Gokul All rights reserved
+    </a> </div>
+  <div id="modal" class="fixed inset-0 z-[100] hidden place-content-center bg-black bg-opacity-50 astro-sckkx6r4">
+    <div class="mx-auto block w-1/2 rounded-md bg-white p-2 astro-sckkx6r4"> <img id="modal-pic"
+        class="w-full astro-sckkx6r4" src=""> </div>
+  </div>
+  <style>
+    .index-desc a {
+      color: var(--hilight-color);
+    }
+  </style>
+  <script>
+    function toggleSubmenuForCyberSecurity() {
+      const submenu = document.getElementById("submenu");
+      if (submenu) {
+        submenu.classList.toggle("hidden");
+      }
+    }
+
+    function toggleSubmenuForDevelopment() {
+      const submenu = document.getElementById("submenufordev");
+      if (submenu) {
+        submenu.classList.toggle("hidden");
+      }
+    }
+  </script>
+
+</body>
+
+</html>
